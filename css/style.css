@@ -1,0 +1,124 @@
+/* General Styles */
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+}
+
+/* Navigation */
+
+nav{
+    background:#003366;
+    color:white;
+
+    display:flex;
+    justify-content:space-between;
+    padding:15px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+/* Hero */
+
+.hero{
+    height:500px;
+    background:url('../images/banner.jpg');
+    background-size:cover;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+    text-align:center;
+}
+
+/* Sections */
+
+section{
+    padding:40px;
+    text-align:center;
+}
+
+/* Gallery */
+
+.images{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+}
+
+.images img{
+    width:300px;
+    border-radius:10px;
+}
+
+/* Cards */
+
+.card{
+    box-shadow:0 0 10px gray;
+    padding:20px;
+    margin:10px;
+}
+
+/* Forms */
+
+form{
+    width:60%;
+    margin:auto;
+}
+
+input,
+textarea{
+
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+}
+
+button{
+    background:#003366;
+    color:white;
+    padding:10px 20px;
+    border:none;
+}
+
+/* Table */
+
+table{
+    width:90%;
+    margin:auto;
+    border-collapse:collapse;
+}
+
+table,
+th,
+td{
+    border:1px solid #ddd;
+}
+
+th,
+td{
+    padding:10px;
+}
+
+/* Footer */
+
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
