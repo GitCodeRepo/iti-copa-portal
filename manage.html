@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Manage Students & Staff</title>
+
+<link rel="stylesheet"
+href="css/style.css">
+
+</head>
+
+<body>
+    <!-- Navigation Menu -->
+<nav>
+    <div class="logo">ITI COPA</div>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="manage.html">Students/Staff</a></li>
+    </ul>
+</nav>
+
+<h1>Student & Staff Management</h1>
+
+<!-- Form -->
+
+<form id="recordForm">
+
+<input
+type="text"
+id="name"
+placeholder="Name"
+required>
+
+<input
+type="text"
+id="role"
+placeholder="Student / Staff"
+required>
+
+<input
+type="email"
+id="email"
+placeholder="Email"
+required>
+
+<button type="submit">
+Save
+</button>
+
+</form>
+
+<!-- Data Table -->
+
+<table>
+
+<thead>
+
+<tr>
+<th>Name</th>
+<th>Role</th>
+<th>Email</th>
+<th>Actions</th>
+</tr>
+
+</thead>
+
+<tbody id="recordTable">
+</tbody>
+
+</table>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
